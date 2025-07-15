@@ -57,6 +57,13 @@ a {
 
 
 /* 인덱스 설정 */
+
+/* top 설정 */
+.top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 /* summary 설정 */
 .summary {
     margin-bottom: 20px;
@@ -70,15 +77,16 @@ a {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
+    vertical-align: bottom;
 }
 .summary h1 {
     margin-bottom: 5px;
     font-size: 22px;
-    margin-left: 15;
     margin-left: 15px;
+    margin-right: 15px;
 }
 .summary p {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     margin-left: 15px;
     margin-right: 15px;
     font-size: 14px;
@@ -108,11 +116,6 @@ a {
 }
 
 
-/* top 설정 */
-.top {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 
 
 /* 서브페이지 설정 */
@@ -363,6 +366,8 @@ block은 줄바꿈이 생겨서 inline-block방식으로 설정 */
     /* 박스3과 박스4의 가로정렬 */
     .boxA {
         display: flex;
+        width: 100%;
+        justify-content: center;
     }
 
     .box3 {
