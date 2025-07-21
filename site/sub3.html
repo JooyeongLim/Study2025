@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비즈니스사이트</title>
+
+    <!-- 그리드가이드연결 -->
+    <!-- <link rel="stylesheet" href="grid-guide.css"> -->
+    <!-- 외부스타일시트연결 -->
+    <link rel="stylesheet" href="style.css">
+    <!-- 폰트연결 -->
+    <script src="https://kit.fontawesome.com/491f9a5afb.js" crossorigin="anonymous"></script>
+
+    <!-- 제이쿼리 CDN -->
+    <script src="jquery-3.7.1.min.js"></script>
+
+    <!-- 최신버전연결 CDN -->
+    <script src="https://code.jquery.com/jquery-latest.js"> </script>
+
+    <script>
+        /* 화면을 열었을때, 무언가를 설정해라.*/
+        $(document).ready(function () {
+
+            //실행문 
+
+            // button을 클릭했을때, 클래서gnb가 열려라
+            $('button').click(function () {
+
+                $('.gnb').slideToggle()
+
+            })
+
+        })
+    </script>
+
+</head>
+
+<body class="sub1">
+
+    <header class="boxA">
+        <div class="boxA-inner">
+            <div class="box1">
+                <div class="logo">
+                    <!-- 로고 라지의 사이즈는 태그에 속성값으로 우선지정해준다. -->
+                    <h1><a href="index.html"><img src="img/logo-large.png" alt="" width="250" height="33"></a></h1>
+                </div>
+            </div>
+            <div class="box2">
+                <button><i class="fa-solid fa-bars"></i><span>menu</span></button>
+                <nav class="gnb">
+                    <ul>
+                        <li><a href="index.html">메인</a></li>
+                        <li><a href="sub2.html">연혁</a></li>
+                        <li><a href="sub1.html">사업소개</a></li>
+                        <li><a href="">채용정보</a></li>
+                        <li><a href="sub3.html">문의</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="box9">
+        <div class="box9-1">
+            <article class="sub_story003">
+
+                <div class="bread">
+                    <ol>
+                        <li><a href="index.html">메인</a></li>
+                        <li><a href="">문의사항</a></li>
+                        <li><a href="">1:1 문의</a></li>
+                    </ol>
+
+                </div>
+
+
+                <h1>TimeSwhich 지원팀에 문의</h1>
+
+                <div class="contact">
+                    <h2>CONTACT</h2>
+                    <p>Atlas 1031 Exchange has proudly served clients seeking I.R.C § 1031 counsel as Qualified Intermediaries with precision and excellence for over 16 years. We often personally meet with clients, and speak at educational events on “Tax Deferred Exchanges.” </p>
+                    <p>Email: info@atlas1031.com</p>
+                    <p>Phone: 1-800-227-1031</p>
+                </div>
+                <div class="contact_info">
+                    <h3>What you get when asking your question</h3>
+                    <p><i class="fa-solid fa-check"></i>Less than 12-hour response to your question.</p>
+                    <p><i class="fa-solid fa-check"></i>Thoroughness and expertise of a Certified Exchange Specialist® </p>
+                    <p><i class="fa-solid fa-check"></i>Plan of action summarized in an email follow up.</p>
+
+                </div>
+            </article>
+        </div>
+        <div class="box9-2">
+            <aside class="sidemenu">
+                <h3><i class="fa-solid fa-square-caret-down"></i>문의사항</h3>
+                <ul>
+                    
+                    <li><a href="">1:1 문의</a></li>
+                    <li><a href="">자주 묻는 질문</a></li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+
+    <footer class="box5">
+        <div class="copyright">
+            <p>copyright &copy; 2025.green310.All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

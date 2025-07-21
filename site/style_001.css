@@ -1,0 +1,84 @@
+/* 언어설정 */
+@charset 'utf-8';
+
+/* 전체설정 */
+* {padding: 0;
+    margin: 0;}
+
+a { text-decoration: none;
+    color: #000;}
+
+ul, ol {list-style: none;}
+img {vertical-align: bottom;}
+
+/* 레이아웃 설정 */
+/* 로고설정 */
+.logo {}
+.logo h1 {}
+.logo a {}
+
+/* 네비게이션 설정 */
+
+button {}
+button i {}
+button i span {}
+
+.gnb {}
+.gnb ul {
+    display: flex;
+    flex-direction: row;
+}
+.gnb ul li {}
+.gnb ul li a {
+    display: block;
+    padding: 5px;
+    font-size: 14px;
+}
+
+/* topimg 설정 */
+/* summary 설정 */
+
+/* news 설정 */
+/* sns 설정 */
+
+/* copyright 설정 */
+
+
+
+
+
+/* 서브페이지_사업소개페이지 설정 */
+/* 박스 5(copyright)를 바 형태로 디자인 */
+.box5 {
+    background-color: #ddd;
+    padding: 15px 0;
+}
+
+/* 모든 박스의 왼쪽 오른쪽 여백 설정 */
+.boxA , .box4, .box5 , .box6 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* 박스의 위쪽 아래쪽 여백 설정 */
+
+
+/* 미디어쿼리구간 ####################################### */
+/* 모바일 구간 설정 */
+@media (max-width:599px) {
+
+}
+
+/* 767px 이하 구간 설정 */
+@media (max-width:767px) {
+
+}
+
+/* 태블릿 구간 설정 */
+@media (min-width:768px) {
+
+}
+
+/* 데스크탑 구간 설정 */
+@media (min-width:1200px) {
+
+}

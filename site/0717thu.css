@@ -1,0 +1,139 @@
+/* 언어설정 -summary 부터 시작하면 됨.*/
+@charset 'utf-8';
+
+/* 전체설정 */
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+/* 로고설정 */
+.logo {}
+.logo h1 {}
+.logo a{}
+
+/* 네비게이션 설정 */
+
+.gnb {}
+.gnb ul {
+    display: flex;
+    flex-direction: row;
+}
+.gnb li {}
+.gnb a {
+    display: block;
+    padding: 5px;
+    font-size: 14px;
+}
+
+/* topImg설정 */
+.topImg {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+/* summary 설정 */
+.summary {}
+.summary a {
+    display: block;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+}
+.summary i {
+    font-size: 38px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: block;
+}
+.summary h2 {
+
+}
+.summary p {}
+
+/* news 설정 */
+.news {}
+.news h2 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.news ul {}
+.news li {}
+.news a {
+    display: flex;
+    padding: 5px;
+    font-size: 14px;
+    border-bottom: 2px dotted #ddd;
+}
+.news p {}
+.news time {
+    color: #888;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* sns설정 */
+.sns {}
+
+.sns_info {
+	position: relative;
+	background: #ddd;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.sns_info:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(221, 221, 221, 0);
+	border-top-color: #ddd;
+	border-width: 10px;
+	margin-left: -10px;
+}
+
+.sns ul {}
+.sns li {}
+.sns a {
+    display: block;
+    background-color: #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+
+}
+.sns i {
+    margin-right: 10px;
+}
+
+.sns li:nth-child(1) a {background-color: #1da1f2;}
+.sns li:nth-child(2) a {background-color: #1877f2;}
+.sns li:nth-child(3) a {background: linear-gradient(to right, #c13584 , #fcaf45 );}
+
+
+
+
+/* 카피라이트 설정 */
+.copyrihgt {}
+.copyrihgt p {
+    font-size: 14px;
+    color: #666;
+}
