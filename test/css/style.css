@@ -1,0 +1,224 @@
+/* 언어설정 */
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+/* 전체설정 */
+
+* {padding: 0;
+    margin: 0;}
+ul, ol {list-style: none;}
+a {text-decoration: none;
+    color: #000;}
+
+/* 박스 크기 설정 */
+
+.boxB {display: flex;}
+.boxB-1 {width: 70%;
+        height: auto;}
+.boxB-2 {width: 30%;
+        height: auto;}
+
+/* 상세 설정####################################### */
+/* 로고 설정 */
+.logo {padding: 10px 0;}
+.logo h1 {}
+.logo h1 a {font-family: "Playwrite AU QLD", cursive;
+            font-size: 25px;
+            color: #cd0a20;
+            font-weight: bold;}
+
+/* 메뉴 설정 */
+.menu {background-color: #489e3b;}
+.menu ul {
+        display: flex;}
+.menu ul li {padding: 10px 15px;
+            padding-right: 5px;}
+.menu ul li a {color: #fff;
+                font-size: 14px;}
+
+/* box-1 설정 */
+/* story_nav 설정 */
+
+.story_nav {}
+.story_nav ul {display: flex;
+                margin: 20px 0;}
+.story_nav ul li {background-color: #fabd42;
+                padding: 5px 10px;
+                margin-right: 10px;
+                border-radius: 5px;}
+.story_nav ul li a {color: #fff;
+                    font-size: 14px;}
+
+/* story_main 설정 */
+.story_main {}
+.story_main h1 {font-size: 30px;
+                font-family: "Jua", sans-serif;
+                font-weight: normal;
+                color: #cd0a20;
+            }
+.story_main img {width: 100%;
+                height: auto;
+                margin-bottom: 20px;
+                margin-top: 20px;}
+.story_main time {}
+.story_main time i {font-size: 15px;
+                    color: #cd0a20;
+                    margin-right: 10px;
+                    }
+
+.story_main h2 {font-weight: normal;
+                border-left: 10px solid #fabd42;
+                padding: 0 10px;
+                margin-bottom: 20px;
+                font-family: "Jua", sans-serif;
+                color: #489e3b;}
+.story_main p {font-size: 14px;
+                margin-bottom: 30px;}
+
+/* sns 설정 */
+.sns {}
+.sns ul {display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 30px;}
+.sns ul li {width: 33.3333%;
+            text-align: center;
+            padding: 10px;}
+
+.sns ul li:nth-child(1) {background-color: #1da1f2;}
+.sns ul li:nth-child(2) {background-color: #1877f2;}
+.sns ul li:nth-child(3) {background-color: #ea4335;}
+
+.sns ul li a {}
+.sns ul li a i {margin-right: 10px;
+                color: #fff;}
+.sns ul li a span {color: #fff;}
+
+/* 관련기사 설정 */
+.relation {background-color: rgb(205, 10, 32, 0.4);
+            padding: 20px;}
+.relation h2 {font-weight: normal;
+                font-size: 20px;
+                margin-bottom: 10px;
+                color: #cd0a20;
+                font-family: "Jua", sans-serif;
+            }
+
+.relation ul {display: flex;}
+.relation ul li {width: 25%;}
+.relation ul li a {}
+.relation ul li a img {width: 90%;}
+.relation ul li a p{width: 91%;
+                    font-size: 13px;
+                    color: #fff;}
+
+/* 특집기사 설정 */
+.special {margin: 20px 0;}
+.special h2 {font-size: 20px;
+            border-bottom: 1px dotted #ddd;
+            margin-bottom: 15px;
+            font-family: "Jua", sans-serif;
+            font-weight: normal;
+            color: #ebbb10;
+        }
+
+.special ul {}
+.special ul li {}
+.special ul li a {display: flex;
+                    justify-content: flex-start;
+                    align-items: center;}
+.special ul li a p {font-size: 14px;
+                    padding-bottom: 10px;}
+.special ul li a i {color: #489e3b;
+                    font-size: 14px;
+                    margin-right: 10px;
+                    padding-bottom: 5px;}
+/* 추천기사 설정 */
+.box7 {margin: 20px 0;}
+.recommend {}
+.recommend h2 {font-size: 20px;
+                border-bottom: 1px dotted #ddd;
+                margin-bottom: 15px;
+                font-family: "Jua", sans-serif;
+                font-weight: normal;
+                color: #ebbb10;
+            }
+.recommend ul {}
+.recommend ul li {}
+.recommend ul li a:nth-child(1) {display: block;
+                                padding: 0px;
+                                font-size: 14px;
+                                position: relative;
+                                margin-bottom: 10px;
+                                overflow: hidden;}
+.recommend ul li:nth-child(1) img {width: 100%;
+                                vertical-align: bottom;}
+.recommend ul li:nth-child(1) .txt {
+                       position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 100%;
+                        padding: 10px;
+                        font-size: 14px;
+                        color: #fff;
+                        background-color: rgb(0, 0, 0, 0.5);}
+
+.recommend ul li:nth-child(2) {display: block;
+        padding: 0px;
+        font-size: 14px;
+        position: relative;
+        margin-bottom: 10px;
+        overflow: hidden;}
+.recommend ul li:nth-child(2) img {width: 100%;
+                                vertical-align: bottom;}
+.recommend ul li:nth-child(2) .txt {
+                        position: absolute;
+                        width: 100%;
+                        left: 0;
+                        bottom: 0;
+                        padding: 10px;
+                        font-size: 14px;
+                        color: #fff;
+                        background-color: rgb(0, 0, 0, 0.5);}
+
+
+/* 인기기사 설정 */
+.popular {}
+.popular h2 {font-size: 20px;
+            border-bottom: 1px dotted #ddd;
+            margin-bottom: 15px;
+            font-family: "Jua", sans-serif;
+            font-weight: normal;
+            color: #ebbb10
+        }
+
+.popular ul {display: flex;
+            flex-direction: column;}
+.popular ul li {}
+.popular ul li a {display: flex;
+                    border-bottom: 1px dotted #ddd;
+                    margin-bottom: 20px;
+                    padding-bottom: 10px;}
+.popular ul li img {margin-right: 10px;}
+.popular ul li p{font-size: 14px;
+                    color: #489e3b;}
+.popular ul li span {font-size: 14px;
+                        color: #3c3c3c;}
+
+/* 카피라이트 설정 */
+.boxC {margin-top: 20px;
+        border-top: 1px solid #ddd;}
+.copyright {}
+.copyright p {font-size: 14px;
+                color: #999;
+                padding: 10px 0;
+                }
+
+/* 전체 크기 설정 */
+.box1 , .menu>ul , .boxB , .copyright {width: 1200px;
+                        margin: 0 auto;}
+
+.boxB-1 {padding-right: 30px;
+        box-sizing: border-box;}
